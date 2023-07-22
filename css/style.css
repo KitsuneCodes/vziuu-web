@@ -1,0 +1,136 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.logo {
+    font-family: "lexend Black";
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 150%;
+    margin-right: 68%;
+}
+body{
+    background-color: rgb(57, 57, 57);
+    transform-origin: top;
+    transform: scale(0.9)
+}
+@media (min-width: 768px) {
+    body {
+      transform: scale(0.9);
+    }
+  }
+.logo-container img {
+    width: 40px;
+    height: 40px; 
+}
+.header {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+background-color: rgb(57, 57, 57);
+}
+/* navbar */
+.navbar {
+text-decoration: none;
+color: whitesmoke;
+font-size: 18px;
+font-weight: 500;
+  }
+.nav-list {
+    font-family: "lexend Light"; 
+    font-size: 120%;
+    list-style: none;
+    display: flex; 
+    justify-content: center;
+}
+.navbar a:hover {
+    color: greenyellow;
+}
+/* odstęp pomiędzy nav-list */
+.nav-list li {
+    margin: 0 5%;  
+}
+/* ukrycie linków */
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+/* section o nas */
+.ns {
+ width: 100%;
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.ns-text {
+    font-family: "lexend Black"; 
+    color: white;
+    margin-left: 20.5%;
+    margin-right: 20.5%;
+}
+.ns-title {
+    color: greenyellow;
+    font-size: 250%;
+    text-align: center;
+}
+.ns-lore {
+  font-family: "lexend Regular"; 
+  font-size: 100%;
+  margin-top: 1.5%;
+  text-align: center;
+}
+/* section Portfolio */
+.pp {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-top: -30%;
+    align-items: center;
+    justify-content: center;
+}
+.pp-text {
+    font-family: "lexend Black"; 
+    color: white;
+    margin-left: 20.5%;
+    margin-right: 20.5%;
+}
+.pp-title {
+    text-align: center;
+    font-size: 250%;
+    color: greenyellow;
+}
+.pp-lore {
+    font-family: "lexend Regular"; 
+    font-size: 100%;
+    margin-top: 1.5%;
+    text-align: center;
+}
+.pp-boxes {
+    list-style: none;
+    display: flex;
+    margin-top: 10%;
+    justify-content: center; 
+}
+.pp-boxes li {
+    margin: 0 6%;
+    align-items: center;
+}
+.box {
+    width: 400px; 
+    height: 260px;
+    margin: 1%;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5%;
+}
